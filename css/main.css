@@ -1,0 +1,144 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  height: 110px;
+}
+
+#about {
+  height: 470px;
+}
+
+#info {
+  height: 210px;
+}
+
+#phrase {
+  height: 80px;
+}
+
+/***** GRID *****/
+
+.full-width {
+  width: 1240px;
+}
+
+.half-width {
+  width: 620px;
+  float: left;
+}
+
+.third-width {
+  border: 1px dotted #dedbdc;
+  float: left;
+  height: 210px;
+  width: 409px;
+}
+
+/***** HEADER SECTION *****/
+
+header {
+  padding: 50px 20px 40px 20px;
+  margin: 0 auto;
+}
+
+#color-font {
+  color: #77a466;
+}
+
+h1 {
+  text-align: left;
+  margin: 0 auto;
+}
+
+h1, header ul li{
+  text-transform: uppercase;
+}
+
+header ul{
+  list-style: none;
+}
+
+header ul li {
+  display :inline-block;
+  font-size: 14px;
+  padding-left: 20px;
+}
+
+header nav ul li a {
+  color: #80aa70;
+  text-decoration: none;
+
+}
+
+/*****ABOUT*****/
+
+#about {
+  margin: 0 20px;
+}
+
+#about img {
+  border: 3px groove #77a466;
+}
+
+#about img, #about p, #phrase {
+  width: 1240px;
+}
+
+#about h2{
+  color: #77a466;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: uppercase;
+}
+
+#about p {
+  text-align: left;
+}
+
+/*****INFO*****/
+
+#info {
+  margin: 0 20px;
+}
+
+#info ul {
+  list-style: none;
+}
+
+#info ul li {
+  color: #77a466;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+#info h3 {
+  font-size: 12px;
+}
+
+#info h3, ul, p {
+  padding-left: 30px;
+  text-align: left;
+}
+
+/*****PHRASE*****/
+
+#phrase {
+  margin: 0 20px;
+  font-size: 16px;
+}
+
+#phrase h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#phrase h2 span {
+  color: green;
+  font-family: 'Pacifico', cursive;
+  font-weight: lighter;
+  text-transform: lowercase;
+}
