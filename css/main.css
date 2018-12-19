@@ -54,11 +54,11 @@ h1 {
   margin: 0 auto;
 }
 
-h1, header ul li{
+h1, header ul li {
   text-transform: uppercase;
 }
 
-header ul{
+header ul {
   list-style: none;
 }
 
@@ -74,7 +74,7 @@ header nav ul li a {
 
 }
 
-/*****ABOUT*****/
+/***** ABOUT *****/
 
 #about {
   margin: 0 20px;
@@ -88,7 +88,7 @@ header nav ul li a {
   width: 1240px;
 }
 
-#about h2{
+#about h2 {
   color: #77a466;
   font-size: 18px;
   line-height: 23px;
@@ -99,7 +99,7 @@ header nav ul li a {
   text-align: left;
 }
 
-/*****INFO*****/
+/***** INFO *****/
 
 #info {
   margin: 0 20px;
@@ -124,7 +124,7 @@ header nav ul li a {
   text-align: left;
 }
 
-/*****PHRASE*****/
+/***** PHRASE *****/
 
 #phrase {
   margin: 0 20px;
